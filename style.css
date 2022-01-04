@@ -1,0 +1,84 @@
+body{
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.descr{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.descr h1{
+    font-size: 50px;
+    
+}
+.color{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( salmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.top-banner1{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.descr1{
+    width: 50%;
+}
+.descr1 h1{
+    font-size: 50px;
+}
+.testimonial{
+    display: flex;
+    padding-bottom: 60px;
+    
+}
+.exper{
+    font-weight: 700;
+}
+.blog{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: gray 10px 10px 30px;
+    border-radius: 10px;
+}
+.blog h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+#line{
+    border-left: solid 5px;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#line1{
+    border-left: solid 5px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: #696997;
+}
